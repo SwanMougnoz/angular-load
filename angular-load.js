@@ -46,6 +46,8 @@
 				var script = document.createElement('script');
 
 				script.src = src;
+				script.async = false;
+				script.defer = false;
 
 				document.body.appendChild(script);
 				return script;
